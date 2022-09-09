@@ -9,7 +9,7 @@
     "lint": "next lint",
     "json": "json-server --watch db.json --port 3700",
     "serve": "concurrently \"npm run dev\" \"npm run json\"",
-    "build-api": "concurrently \"npm run dev\" \"npm run json\""d
+    "build-api": "concurrently \"npm run dev\" \"npm run json\""
   },
   "dependencies": {
     "concurrently": "^7.4.0",
